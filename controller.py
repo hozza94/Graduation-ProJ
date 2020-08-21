@@ -1,7 +1,7 @@
 from pyknon.genmidi import Midi
 from pyknon.music import NoteSeq, Note, Rest
 import numpy as np
-# import pywt
+import pywt
 from skimage.restoration import denoise_wavelet
 
 class Denoising(object):
